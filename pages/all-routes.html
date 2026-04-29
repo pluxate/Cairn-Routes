@@ -10,7 +10,7 @@
     <script src="/js/initSession.js"></script>
     <script src="/js/initialSortTable.js"></script>
   </head>
-  <body onload="initialSortTable()" style="background-color: #ffffdf">
+    <body onload="initAllRoutesPage()" style="background-color: #ffffdf">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #312f32;">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
@@ -50,6 +50,10 @@
     <div class="row justify-content-center">
       <div class="container-fluid">
         <div class="col-md-6 textbody mt-3 mb-3 mx-auto">
+          <label for="zone-filter" class="form-label"><strong>Filter by zone</strong></label>
+          <select id="zone-filter" class="form-select mb-3" aria-label="Filter routes by zone">
+            <option value="">All zones</option>
+          </select>
           <table class="sortable table table-responsive">
             <colgroup>
               <col span="1" width=fit-content>
