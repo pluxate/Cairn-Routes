@@ -16,7 +16,7 @@ The website shows:
 
 ## Submitting Routes
 
-If you want to contribute a route that you don't see on the site, submit via this [Google Form](https://forms.gle/JrBpkGo34DmPmP8H9) and then upload one photo of your route to this [Google Drive](https://drive.google.com/drive/folders/1NVI0557iOwSXNJvvsFzq_1nwizWa02Aj?usp=sharing)
+If you want to contribute a route that you don't see on the site, submit via this [Google Form](https://forms.gle/JrBpkGo34DmPmP8H9) and then upload photos (only one photo is usable at this point) of your route to this [Google Drive](https://drive.google.com/drive/folders/1NVI0557iOwSXNJvvsFzq_1nwizWa02Aj?usp=sharing)
 
 ## Features in the Future
 
