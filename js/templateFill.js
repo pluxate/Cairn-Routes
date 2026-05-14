@@ -1,9 +1,12 @@
 async function templateFill() {
   const urlParams = new URLSearchParams(window.location.search);
   const routeID = urlParams.get("id");
+  console.log(routeID)
+
 
   const content = JSON.parse(sessionStorage.getItem("allRoutes"));
   const route = content[routeID];
+console.log(route)
 
   let buffs = "";
   if (route.buffs['Burst'] === true) {
