@@ -18,4 +18,5 @@ async function getRandomRoute() {
     newUrl.searchParams.set("id", newRouteName);
 
     window.location.href = newUrl.href;
+
 }
