@@ -36,7 +36,32 @@ function setupZoneFilter() {
     });
 }
 
+function fillTable() {
+    const STORAGE_KEY = "allRoutes";
+    const content = JSON.parse(sessionStorage.getItem(STORAGE_KEY));
+
+    const elem = document.querySelector(".table.sortable tbody")
+
+    Object.entries(content).forEach(([id, route]) => {
+        const newRow = elem.insertRow();
+        const cellKey = newRow.insertCell();
+
+        const url = new URL("route.html", window.location.href);
+        url.searchParams.set("id", id)
+
+        const link = document.createElement("a");
+        link.href = url
+        link.textContent = route.route_name;
+
+        cellKey.appendChild(link);
+
+        const cellValue = newRow.insertCell();
+        cellValue.textContent = route.route_location;
+    })
+}
+
 function initAllRoutesPage() {
+    fillTable();
     initialSortTable();
     setupZoneFilter();
 }

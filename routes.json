@@ -111,7 +111,7 @@
             "Chalk": true,
             "Grit": false
         },
-        "img_path": "/imgs/Bear-with-me.jpg"
+        "img_path": ""
     },
     "Bear-A-Chute": {
         "route_name": "Bear-A-Chute",
@@ -282,7 +282,7 @@
             "Chalk": true,
             "Grit": false
         },
-        "img_path": "/imgs/Cascading-Remembrance-.jpg"
+        "img_path": ""
     },
     "Change": {
         "route_name": "Change",
@@ -795,7 +795,7 @@
             "Chalk": true,
             "Grit": true
         },
-        "img_path": "/imgs/Razor-Line-2.jpg"
+        "img_path": "/imgs/Razor-Line.jpg"
     },
     "Edgerider": {
         "route_name": "Edgerider",
@@ -909,7 +909,7 @@
             "Chalk": true,
             "Grit": true
         },
-        "img_path": "/imgs/Farsighted-StalecFright.jpg"
+        "img_path": ""
     },
     "Flow": {
         "route_name": "Flow",
@@ -985,7 +985,7 @@
             "Chalk": false,
             "Grit": true
         },
-        "img_path": "/imgs/Frostbite-.jpg"
+        "img_path": "/imgs/Frostbite.jpg"
     },
     "Garrador": {
         "route_name": "Garrador",
@@ -1099,7 +1099,7 @@
             "Chalk": true,
             "Grit": false
         },
-        "img_path": "/imgs/Gym-Wall-0.5-(left-facing-face-of-Wall-1)-.jpg"
+        "img_path": "/imgs/Gym-Wall-0.5-(left-facing-face-of-Wall-1).jpg"
     },
     "Gym Wall 2.2 (left side of Wall #2)": {
         "route_name": "Gym Wall 2.2 (left side of Wall #2)",
@@ -1232,7 +1232,7 @@
             "Chalk": true,
             "Grit": true
         },
-        "img_path": "/imgs/Inquisition.jpg"
+        "img_path": ""
     },
     "Jumbo Love": {
         "route_name": "Jumbo Love",
@@ -1688,7 +1688,7 @@
             "Chalk": true,
             "Grit": true
         },
-        "img_path": "/imgs/Razor-Line-2.jpg"
+        "img_path": "/imgs/Razor-Line.jpg"
     },
     "Reflection": {
         "route_name": "Reflection",
@@ -1783,7 +1783,7 @@
             "Chalk": true,
             "Grit": false
         },
-        "img_path": "/imgs/Side-Winder.jpg"
+        "img_path": ""
     },
     "Silence": {
         "route_name": "Silence",
@@ -2068,7 +2068,7 @@
             "Chalk": true,
             "Grit": true
         },
-        "img_path": "/imgs/Tell-No-Tales.jpg"
+        "img_path": ""
     },
     "The Black Death": {
         "route_name": "The Black Death",
@@ -2391,7 +2391,7 @@
             "Chalk": true,
             "Grit": false
         },
-        "img_path": "/imgs/The-Pass-of-Caradhras-.jpg"
+        "img_path": "/imgs/Pass-of-Caradhras.jpg"
     },
     "The Vampire": {
         "route_name": "The Vampire",
@@ -2581,7 +2581,7 @@
             "Chalk": false,
             "Grit": false
         },
-        "img_path": "/imgs/Wall-#7.jpg"
+        "img_path": ""
     },
     "Waterfalling": {
         "route_name": "Waterfalling",
@@ -2638,7 +2638,7 @@
             "Chalk": true,
             "Grit": true
         },
-        "img_path": "/imgs/What-A-Thrill....jpg"
+        "img_path": "/imgs/What-A-Thrill.jpg"
     },
     "What Piranha?": {
         "route_name": "What Piranha?",
@@ -2657,7 +2657,7 @@
             "Chalk": true,
             "Grit": true
         },
-        "img_path": "/imgs/What-Piranha?.jpg"
+        "img_path": ""
     },
     "Widowmaker": {
         "route_name": "Widowmaker",
