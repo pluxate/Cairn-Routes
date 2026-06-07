@@ -8,29 +8,29 @@ function initialSortTable() {
 }
 
 
-function setupZoneFilter() {
+function setupLocationFilter() {
     const table = document.querySelector('table.sortable');
-    const zoneFilter = document.getElementById('zone-filter');
+    const locationFilter = document.getElementById('location-filter');
 
-    if (!table || !zoneFilter)
+    if (!table || !locationFilter)
         return;
 
     const rows = Array.from(table.tBodies[0].rows);
-    const zones = [...new Set(rows.map(row => row.cells[1].textContent.trim()))].sort((a, b) => a.localeCompare(b));
+    const locations = [...new Set(rows.map(row => row.cells[1].textContent.trim()))].sort((a, b) => a.localeCompare(b));
 
-    zones.forEach(zone => {
+    locations.forEach(location => {
         const option = document.createElement('option');
-        option.value = zone;
-        option.textContent = zone;
-        zoneFilter.appendChild(option);
+        option.value = location;
+        option.textContent = location;
+        locationFilter.appendChild(option);
     });
 
-    zoneFilter.addEventListener('change', function() {
-        const selectedZone = this.value;
+    locationFilter.addEventListener('change', function() {
+        const selectedLocation = this.value;
 
         rows.forEach(row => {
-            const routeZone = row.cells[1].textContent.trim();
-            const shouldShowRow = selectedZone === '' || routeZone === selectedZone;
+            const routeLocation = row.cells[1].textContent.trim();
+            const shouldShowRow = selectedLocation === '' || routeLocation === selectedLocation;
             row.style.display = shouldShowRow ? '' : 'none';
         });
     });
@@ -38,5 +38,5 @@ function setupZoneFilter() {
 
 function initAllRoutesPage() {
     initialSortTable();
-    setupZoneFilter();
+    setupLocationFilter();
 }
